@@ -40,7 +40,10 @@ else
 {
     print("No")
 }
-
-name.substring(from: name.s)
-
+var index: String
+print(name.firstIndex(of: "L"))
+for index in name.indices
+{
+    print(name[index])
+}
 
