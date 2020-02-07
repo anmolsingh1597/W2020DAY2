@@ -12,9 +12,16 @@ struct SArithmatic{
     var a : Int
     var b : Int
     var c : Int
-     mutating func add(){
+    var s : sStudent
+    var cc :cStudent
+    
+    mutating func add(){
         //self.c=self.a+self.b // without keyword "mutating"- it is error because self is immutable
         self.c=self.a+self.b
+    }
+    
+    func test(){
+        self.cc.studentID = 100
     }
 }
 
