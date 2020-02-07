@@ -139,3 +139,12 @@ print(country.capacity)//index of array
 country.insert("Bangladesh", at: 5) //insert "Bangladesh" at index 5
 
 print(country)
+
+var y:[Int]
+
+y = [Int]()
+var d = (100,200,300)
+
+
+print(y)
+
