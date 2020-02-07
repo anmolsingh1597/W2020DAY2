@@ -115,6 +115,27 @@ for c in country
     print(c)
 }
 
-var c1  = country[2...4]
+var c1  = country[2...4] // it make subarray(ie "slice") of index 2,3,4 only
 
 print(c1)
+//c1[0]="Hong Kong" that's why it is not possible because it include only 2,3,4 index not 0,1 or not above 4
+c1[4]="Hong Kong"
+
+print(c1)
+print(country)
+
+var x = Array(repeating: 0, count: 10) // for loop for repeating '0' 10 times
+
+print(type(of: country)) //display type of country array
+
+print(type(of: c1)) //display type
+
+print(type(of: x))
+
+print(x)
+
+print(country.capacity)//index of array
+
+country.insert("Bangladesh", at: 5) //insert "Bangladesh" at index 5
+
+print(country)
