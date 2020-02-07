@@ -29,12 +29,18 @@ print(str.startIndex) // start index of string
 str.insert("H", at: str.startIndex) //add "H" at start of string
 print(str)
 
-var name="Welcome to Toronto"
-var check=("Welcome" , "Toronto")
+var name="Welcome to Lambton College, Toronto"
+var check=("Welcome" , "Toronto") //
 
-if name.contains(check.0) && name.contains(check.1){
+if name.contains(check.0) && name.contains(check.1) // checks "Welcome" and "Toronto"
+{
     print("Yes")
 }
-else{
-print("No")
+else
+{
+    print("No")
 }
+
+name.substring(from: name.s)
+
+
