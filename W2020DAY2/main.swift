@@ -147,5 +147,24 @@ var d = (100,200,300)
 
 
 print(y)
-
+print ("Aman Kaur")
 // comment to check
+
+/*
+Q1-Difference between Structure and Class-Interview
+A_-Structure is value type and Class is refernce type
+   Like in java Integer is Structure type and String is Class type
+ 
+keywords
+ Class--class
+ Struct-Structure
+ init()-constructor
+ */
+
+var s1 = sStudent (studentID: 1, studentName: "Anmol", totalMarks: 53.25) //constructor                                                                           calling
+s1.display()
+
+var cs1 = cStudent(studentID: 2, studentName: "Singh", totalMarks:65.25)// because of adding ? in front of "totalMarks" output says optional(65.25)
+
+cs1.display()
+
