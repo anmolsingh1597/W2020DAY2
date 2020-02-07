@@ -40,10 +40,81 @@ else
 {
     print("No")
 }
-var index: String
-print(name.firstIndex(of: "L"))
-for index in name.indices
+
+/*
+var index: UInt8
+print(name.firstIndex(of: "L")) // display rawbits of char 'L'
+for name.index in name(from: 11, to: 17, by: 1 )
 {
     print(name[index])
 }
+*/
 
+var a: String?
+a = "Hello"
+//a = nil
+
+print(a?.lowercased() ?? "No Value")
+
+/*
+if let x = a
+{
+    print(x.lowercased())
+}else{
+    print("a is nil")
+}
+
+print(a!.lowercased())
+*/
+
+for _ in 1...10{
+    print("Anmol Singh")
+}
+
+
+
+for i in stride (from: 1, to: 10, by: 2){  // stride() used
+    print(i)
+}
+
+for i in stride(from: 10, to: 0, by: -1){
+    print(i)
+}
+
+for i in stride(from: 10, through: 5, by: -1){
+    print(i)
+}
+
+var country=["India","Canada","USA","Nepal","UK"]
+print(country[0])
+
+for c in country
+{
+    print(c)
+}
+
+country.append("China") //add new element in string
+
+for c in country
+{
+    print(c)
+}
+
+country.remove(at: 4) // remove element
+
+for c in country
+{
+    print(c)
+}
+
+country += ["Sri Lanka","Japan"]
+
+
+for c in country
+{
+    print(c)
+}
+
+var c1  = country[2...4]
+
+print(c1)
