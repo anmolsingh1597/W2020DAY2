@@ -164,7 +164,34 @@ keywords
 var s1 = sStudent (studentID: 1, studentName: "Anmol", totalMarks: 53.25) //constructor                                                                           calling
 s1.display()
 
+var cs0=cStudent()
+cs0.display()
+
 var cs1 = cStudent(studentID: 2, studentName: "Singh", totalMarks:65.25)// because of adding ? in front of "totalMarks" output says optional(65.25)
 
 cs1.display()
+s1.studentID=100
+var s2 = s1
+s1.studentName="Singh"
+s2.display()
+s1.display()
+
+var sa1 = SArithmatic(a: 5, b: 5)
+print(sa1.add())
+
+var ca1 = CArithmatic(studentID: 5, studentName: "Me", totalMarks: 56.22)
+
+var c4: cStudent?
+// vehicle rent = structure
+c4 = cStudent()
+c4?.display()
+
+//defer and deinit
+var e1 = Employee()
+e1.employeeId = "5"
+print(e1.employeeId)
+e1.firstName="Anmol"
+e1.lastName="Singh"
+print(e1.fullName)
+
 

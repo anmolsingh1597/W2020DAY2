@@ -10,6 +10,7 @@
 		9B06D87423EE256200619EFF /* sStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D87323EE256200619EFF /* sStudent.swift */; };
 		9B06D87623EE269200619EFF /* cStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D87523EE269200619EFF /* cStudent.swift */; };
 		9B06D87823EE2D0A00619EFF /* Arithmatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D87723EE2D0A00619EFF /* Arithmatic.swift */; };
+		9B06D87A23EE43CC00619EFF /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D87923EE43CC00619EFF /* Employee.swift */; };
 		9B78FFBA23ECDCC300D1AABC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78FFB923ECDCC300D1AABC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		9B06D87323EE256200619EFF /* sStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sStudent.swift; sourceTree = "<group>"; };
 		9B06D87523EE269200619EFF /* cStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cStudent.swift; sourceTree = "<group>"; };
 		9B06D87723EE2D0A00619EFF /* Arithmatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmatic.swift; sourceTree = "<group>"; };
+		9B06D87923EE43CC00619EFF /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		9B78FFB623ECDCC300D1AABC /* W2020DAY2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = W2020DAY2; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78FFB923ECDCC300D1AABC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				9B06D87323EE256200619EFF /* sStudent.swift */,
 				9B06D87523EE269200619EFF /* cStudent.swift */,
 				9B06D87723EE2D0A00619EFF /* Arithmatic.swift */,
+				9B06D87923EE43CC00619EFF /* Employee.swift */,
 			);
 			path = W2020DAY2;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				9B78FFBA23ECDCC300D1AABC /* main.swift in Sources */,
 				9B06D87823EE2D0A00619EFF /* Arithmatic.swift in Sources */,
 				9B06D87623EE269200619EFF /* cStudent.swift in Sources */,
+				9B06D87A23EE43CC00619EFF /* Employee.swift in Sources */,
 				9B06D87423EE256200619EFF /* sStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

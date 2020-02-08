@@ -11,19 +11,21 @@ struct SArithmatic{
  //':' used for intheritance ie extends in java  || structure is value type so inhertence is impossible
     var a : Int
     var b : Int
-    var c : Int
-    var s : sStudent
-    var cc :cStudent
+    var c : Int?
+    var s : sStudent?
+    var cc :cStudent?
     
-    mutating func add(){
+    mutating func add() -> Int{
         //self.c=self.a+self.b // without keyword "mutating"- it is error because self is immutable
-        self.c=self.a+self.b
+        self.c = self.a+self.b
+        return c!
     }
     
-    func test(){
-        self.cc.studentID = 100
+ /*   func test(){
+        self.cc.studentID = 100 // just updating studentID in class cStudent
     }
-}
+*/
+ }
 
 class CArithmatic:cStudent{
     //
