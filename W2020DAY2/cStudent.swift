@@ -32,7 +32,7 @@ class cStudent {  // class declartion and also can have multiple classes
         print("-----Class-----")
         print("Student Id: \(studentID)")
         print("Student Name: \(studentName)")
-        print("Student Id: \(totalMarks)")
+        print("Total Marks: \(totalMarks)")
 }
 
 }

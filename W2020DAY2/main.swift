@@ -184,12 +184,15 @@ var ca1 = CArithmatic(studentID: 5, studentName: "Me", totalMarks: 56.22)
 var c4: cStudent?
 // vehicle rent = structure
 c4 = cStudent()
+c4?.studentID = 56
+c4?.studentName = "Mr.Singh"
 c4?.display()
 
 //defer and deinit
+print("-----Employee-----")
 var e1 = Employee()
 e1.employeeId = "5"
-print(e1.employeeId)
+print("Employee ID: \(e1.employeeId)")
 e1.firstName="Anmol"
 e1.lastName="Singh"
 print(e1.fullName)

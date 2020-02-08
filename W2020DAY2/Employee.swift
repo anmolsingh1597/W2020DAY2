@@ -12,9 +12,9 @@ class Employee{
     var empcode:String = ""
     var employeeId: String
     {
-        set(id)
+        set
         {
-            empcode="Emp\(id)"
+            empcode="Emp\(newValue)"
         }
         get{
             return empcode
